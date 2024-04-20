@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Yantramanav:100,300,regular,500,700,900);
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://res.cloudinary.com/dq7uyauun/image/upload/v1606320004/Backgrounds/Background_1_2x_kxbjqo.jpg');
+    background-size: cover;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    width: 300px;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.rate1 {
+    color: #333;
+}
+.rate2 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.swap {
+    cursor: pointer;
+    align-self: flex-end;
+    padding: 0.5rem;
+}
+
+.options select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #333;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.options select:focus {
+    outline: none;
+}
+
+.input input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #333;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    appearance: textfield;
+}
+
+.target {
+    transform: translate(5%);
+}
+
+.result {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.result:active {
+    transform: scale(0.98);
+    background-color: #333;
+    color: #fff;
+}
+
